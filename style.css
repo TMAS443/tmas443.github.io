@@ -48,3 +48,9 @@ body{
 .naraberu2{
     display: flex;
 }
+footer{
+    background-color: black;
+}
+footer p{
+    color: white;
+}

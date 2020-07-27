@@ -1,0 +1,50 @@
+body{
+    background-color: #ffdcdc;
+}
+.topbar{
+    background-color: #ff7878;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.topbar .bar ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.topbar .bar ul a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1.25rem;
+    padding: 25px 2rem;
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-right-color: #DDD;
+    color: black;
+    transition: color,background-color 0.3s;
+}
+.img1{
+    height: 50%;
+    width: 100%;
+}
+.img2{
+    height: 60%;
+    width: 100%;
+}
+.img3{
+    height: 100%;
+    width: 100%;
+}
+.img4{
+    height: 100%;
+    width: 70%;
+}
+.naraberu{
+    display: flex;
+}
+.naraberu2{
+    display: flex;
+}

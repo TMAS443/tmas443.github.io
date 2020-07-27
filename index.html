@@ -3,10 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>sample</h1>
-    <img src="img/kariya.jpg" alt="">
+    <header class="topbar">
+        <h1>ポートフォリオ</h1>
+        <nav class="bar">
+            <ul>
+                <li><a href="#pro">プロフィール</a></li>
+                <li><a href="#gall">ギャラリー</a></li>
+                <li><a href="#mail">メール</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+       <section id="pro">
+           <h2>プロフィール</h2>
+           <figure><img src="" alt=""></figure>
+           <ul>
+               <li>名前：北村　健人</li>
+               <li>年齢：２０（２０２０年７/２７日現在）</li>
+               <li>所属：愛知工業大学情報科学部メディア情報専攻２年</li>
+               <li>経歴：豊田北高校卒、井郷中学校卒（高校ボート部、中学卓球部）</li>
+               <li>スキル：Illustrator,Photoshop,Aftereffect,Premiere,Maya,C言語プログラミングetc...</li>
+               <li>趣味：Vtuber観賞、ゲーム</li>
+           </ul>
+       </section>
+       <section id="gall">
+           <h2>ギャラリー</h2>
+           <div class="naraberu">
+             <figure>
+                 <a href=""><img class="img1" src="img/tempest1.png" alt=""></a>
+                 <figcaption></figcaption>
+             </figure>
+             <figure>
+                 <a href=""><img class="img2" src="img/ユグドラシル1.jpg" alt=""></a>
+                 <figcaption></figcaption>
+             </figure>
+           </div>
+           <div class="naraberu2">
+              <figure>
+                 <a href=""><img class="img3" src="img/京都１サムネ1.png" alt=""></a>
+                 <figcaption></figcaption>
+              </figure>
+              <figure>
+                 <a href=""><img class="img4" src="img/maya.jpeg" alt=""></a>
+                 <figcaption></figcaption>
+              </figure>
+           </div>
+       </section>
+       <section id="mail">
+           <h2>メール</h2>
+           <p>ご連絡はこちらまで！</p>
+           <a href="mailto:x19037@aitech.ac.jp"><img src="img/mail.png" alt=""></a>
+       </section>
+    </main>
+    <footer>
+        <p>made by Kento Kitamura</p>
+    </footer>
 </body>
 </html>

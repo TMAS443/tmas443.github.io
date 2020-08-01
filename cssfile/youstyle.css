@@ -1,0 +1,29 @@
+body{
+    background-color: lemonchiffon;
+}
+header{
+    background-color: #ffb200;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px ;
+    margin-bottom: 5px;
+}
+header h1{
+    padding-left: 10px;
+}
+header a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 1rem;
+    font-size: 1.25rem;
+    padding-right: 10px;
+    color: black;
+    transition: color,background-color 0.3s;
+}
+header a:hover{
+    background-color: #007dff;
+    color: white;
+    border-bottom: 4px solid blue;
+}

@@ -7,6 +7,10 @@ body{
     align-items: center;
     justify-content: space-between;
     width: 100%;
+    border-radius: 5px ;
+}
+.topbar h1{
+    padding-left: 20px;
 }
 
 .topbar .bar ul{
@@ -25,6 +29,28 @@ body{
     border-right-color: #DDD;
     color: black;
     transition: color,background-color 0.3s;
+}
+.topbar .bar ul a:hover{
+    background-color: #ff9c00;
+    color: white;
+    border-bottom: 4px solid yellow;
+}
+.but{
+    position: fixed;
+    left: 1310px;
+    top: 580px;
+}
+.button{
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: black;
+  background: #ff7878;
+  border-radius: 10px;
+  box-shadow: inset 0 2px 0 rgba(255,255,255,0.2), 0 2px 2px rgba(0, 0, 0, 0.19);
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: 120px;
+  height: 80px;
 }
 .img1{
     height: 50%;
@@ -50,6 +76,11 @@ body{
 }
 footer{
     background-color: black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 20px;
+    font-size: 1.4em;
 }
 footer p{
     color: white;

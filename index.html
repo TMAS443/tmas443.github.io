@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <script src="nodo.js"></script>
 </head>
 <body>
     <header class="topbar">
@@ -17,54 +18,62 @@
             </ul>
         </nav>
     </header>
+    <section class="tit">
+        <div id="text" onload="printMoji()">
+            ようこそ！！
+        </div>
+    </section>
     <div class="but">
         <a href="index.html"><button class="button" type="button">TOPへ</button></a>
     </div>
     <main>
        <section id="pro">
            <h2>プロフィール</h2>
-           <figure><img src="" alt=""></figure>
-           <ul>
-               <li>名前：北村　健人</li>
-               <li>年齢：２０</li>
-               <li>所属：愛知工業大学情報科学部メディア情報専攻２年　TeamAI所属</li>
-               <li>経歴：豊田北高校卒、井郷中学校卒（高校ボート部、中学卓球部）</li>
-               <li>スキル：Illustrator,Photoshop,Aftereffect,Premiere,Maya,C言語プログラミングetc...</li>
-               <li>趣味：Vtuber観賞、ゲーム</li>
-               　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（２０２０年７/２７日現在）
-           </ul>
+           <div class="proro">
+             <img class="proimg" src="img/example.jpg" alt="">
+             <ul>
+                 <li>名前：北村　健人</li>
+                 <li>年齢：２０</li>
+                 <li>所属：愛知工業大学情報科学部メディア情報専攻２年　TeamAI所属</li>
+                 <li>経歴：豊田北高校卒、井郷中学校卒（高校ボート部、中学卓球部）</li>
+                 <li>スキル：Illustrator,Photoshop,Aftereffect,Premiere,Maya,C言語プログラミングetc...</li>
+                 <li>趣味：Vtuber観賞、ゲーム</li>   　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　（２０２０年７/２７日現在）
+             </ul>
+           </div>
        </section>
        <section id="gall">
            <h2>ギャラリー</h2>
            <div class="naraberu">
              <figure>
-                 <a href="syousai/tempest.html"><img class="img1" src="img/tempest1.png" alt=""></a>
-                 <figcaption>マッピングDEシェイクスピア-The Tempest-</figcaption>
+                 <a href="syousai/tempest.html"><img onmouseover="chgcr('#ff9200');" onmouseout="chgcr('#ffdcdc');" class="img1" src="img/tempest1.png" alt=""></a>
+                 <figcaption id="cmoji">マッピングDEシェイクスピア-The Tempest-</figcaption>
              </figure>
              <figure>
-                 <a href="syousai/yugu.html"><img class="img2" src="https://github.com/TMAS443/tmas443.github.io/blob/master/img/%E3%83%A6%E3%82%B0%E3%83%89%E3%83%A9%E3%82%B7%E3%83%AB1.jpg?raw=true" alt=""></a>
-                 <figcaption>ダンス×音楽×映像　ユグドラシル</figcaption>
+                 <a href="syousai/yugu.html"><img onmouseover="chgcr2('#53c642');" onmouseout="chgcr2('#ffdcdc');" class="img2" src="https://github.com/TMAS443/tmas443.github.io/blob/master/img/%E3%83%A6%E3%82%B0%E3%83%89%E3%83%A9%E3%82%B7%E3%83%AB1.jpg?raw=true" alt=""></a>
+                 <figcaption id="cmoji2">ダンス×音楽×映像　ユグドラシル</figcaption>
              </figure>
            </div>
            <div class="naraberu2">
               <figure>
-                 <a href="syousai/you.html"><img class="img3" src="img/京都１サムネ1.png" alt=""></a>
-                 <figcaption>YouTubeでの活動</figcaption>
+                 <a href="syousai/you.html"><img onmouseover="chgcr3('#ffafff');" onmouseout="chgcr3('#ffdcdc');" id="smoji" class="img3" src="img/京都１サムネ1.png" alt=""></a>
+                 <figcaption id="cmoji3">YouTubeでの活動</figcaption>
+                 <script>document.getElementById("smoji").textContent="詳細へ";</script>
               </figure>
               <figure>
-                 <a href="syousai/maya.html"><img class="img4" src="img/maya.jpeg" alt=""></a>
-                 <figcaption>Mayaなどソフトウェアでの映像制作</figcaption>
+                 <a href="syousai/maya.html"><img onmouseover="chgcr4('#00b5ff');" onmouseout="chgcr4('#ffdcdc');" class="img4" src="img/maya.jpeg" alt=""></a>
+                 <figcaption id="cmoji4">Mayaなどソフトウェアでの映像制作</figcaption>
               </figure>
            </div>
        </section>
        <section id="mail">
            <h2>メール</h2>
            <p>ご連絡はこちらまで！</p>
-           <a href="mailto:x19037@aitech.ac.jp"><img src="img/mail.png" alt=""></a>
+            <a href="mailto:x19037@aitech.ac.jp"><img id="mclr" onmouseover="mailcolor('#ff93ff');" onmouseout="mailcolor('#ffdcdc');" src="img/mail.png" alt=""></a>
        </section>
     </main>
     <footer>
         <p>made by Kento Kitamura</p>
     </footer>
 </body>
+<!--onmouseover="imgmoji('詳細へ');"-->
 </html>

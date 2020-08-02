@@ -35,6 +35,17 @@ body{
     color: white;
     border-bottom: 4px solid yellow;
 }
+.tit{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    background-image: url("img/kyouto2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
 .but{
     position: fixed;
     left: 1310px;
@@ -52,6 +63,30 @@ body{
   width: 120px;
   height: 80px;
 }
+#pro{
+    margin-top: 5rem;
+}
+#pro h2{
+    margin-left: 40rem;
+}
+.proimg{
+    height: 300px;
+    width: 500px;
+    border-radius: 50% ;
+}
+.proro{
+    display: flex;
+}
+.proro ul{
+    list-style: none;
+    margin-top: 5rem;
+}
+#gall{
+    margin-top: 8rem;
+}
+#gall h2{
+    margin-left: 40rem;
+}
 .img1{
     height: 50%;
     width: 100%;
@@ -66,13 +101,27 @@ body{
 }
 .img4{
     height: 100%;
-    width: 70%;
+    width: 100%;
 }
 .naraberu{
     display: flex;
+    margin-left: 7rem;
 }
 .naraberu2{
     display: flex;
+    margin-left: 7rem;
+}
+#mail{
+    margin-top: 8rem;
+}
+#mail h2{
+    margin-left: 40rem;
+}
+#mail p{
+    margin-left: 38rem;
+}
+#mail a{
+    margin-left: 35rem;
 }
 footer{
     background-color: black;

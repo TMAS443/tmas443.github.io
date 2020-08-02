@@ -1,13 +1,4 @@
-var i=0;
-var printString;
-var moji="ようこそ！！";
 
-function printMoji(){
-    document.getElementById("text").innerText=moji.substring(0,i++);
-    if(i<=moji.length){
-        setTimeout("printMoji()",300);
-    }
-}
 function mailcolor(mcolor){
     document.getElementById("mclr").style.backgroundColor=mcolor;
 }

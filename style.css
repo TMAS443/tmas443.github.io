@@ -46,6 +46,10 @@ body{
     background-size: cover;
     background-position: center;
 }
+#text{
+    font-size: 5rem;
+    color: #ff47ff;
+}
 .but{
     position: fixed;
     left: 1310px;
@@ -68,6 +72,7 @@ body{
 }
 #pro h2{
     margin-left: 40rem;
+    margin-bottom: 5rem;
 }
 .proimg{
     height: 300px;
@@ -82,10 +87,11 @@ body{
     margin-top: 5rem;
 }
 #gall{
-    margin-top: 8rem;
+    margin-top: 13rem;
 }
 #gall h2{
     margin-left: 40rem;
+    margin-bottom: 8rem;
 }
 .img1{
     height: 50%;
@@ -111,14 +117,26 @@ body{
     display: flex;
     margin-left: 7rem;
 }
+#cmoji{
+    font-size: 1.5rem;
+}
+#cmoji2{
+    font-size: 1.5rem;
+}
+#cmoji3{
+    font-size: 1.5rem;
+}
+#cmoji4{
+    font-size: 1.5rem;
+}
 #mail{
-    margin-top: 8rem;
+    margin-top: 10rem;
 }
 #mail h2{
     margin-left: 40rem;
 }
 #mail p{
-    margin-left: 38rem;
+    margin-left: 35rem;
 }
 #mail a{
     margin-left: 35rem;
@@ -133,4 +151,7 @@ footer{
 }
 footer p{
     color: white;
+}
+h2{
+    font-size: 2rem;
 }

@@ -27,3 +27,14 @@ header a:hover{
     color: white;
     border-bottom: 4px solid #ff93ff;
 }
+.tank{
+    width: 540px;
+    height: 320px;
+}
+.haru{
+    width: 540px;
+    height: 320px;
+}
+#obj{
+    margin-left: 200px;
+}
